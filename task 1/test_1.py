@@ -1,2 +1,4 @@
 def test_1():
-    assert addition(5, 3) == 8
+    result = addition(5, 3)
+    print(f"Результат додавання: {result}")
+    assert result == 8
