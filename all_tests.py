@@ -1,5 +1,5 @@
-from dumb_code import addition
 import pytest
+from dumb_code import addition
 
 def test_1():
     result = addition(5, 3)
