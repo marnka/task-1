@@ -1,4 +1,5 @@
 from dumb_code import addition
+import pytest
 
 def test_1():
     result = addition(5, 3)
